@@ -20,7 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "jest": "react-scripts test",
+    "jest": "react-scripts test --watchAll=false",
     "e2e": "yarn wdio wdio.conf.js",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
