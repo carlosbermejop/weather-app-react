@@ -3,7 +3,7 @@ import '@testing-library/jest-dom';
 import App from '../App';
 
 it('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/hello world/i);
-  expect(linkElement).toBeInTheDocument();
-});
+  render(<App />)
+  const btnQuery = screen.getByText(/query/i)
+  expect(btnQuery).toBeInTheDocument()
+})
