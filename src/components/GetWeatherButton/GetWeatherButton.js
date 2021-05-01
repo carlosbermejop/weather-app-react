@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 
 const GetWeatherButton = (props) => {
 
@@ -8,7 +8,7 @@ const GetWeatherButton = (props) => {
 
     return (
         <div>
-            <button onClick={handleOnClickButton}>Query</button>
+            <button id="query-button" onClick={handleOnClickButton}>Query</button>
         </div>
     )
 }

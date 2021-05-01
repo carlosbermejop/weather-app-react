@@ -1,0 +1,45 @@
+{
+    "env": {
+        "jasmine": true,
+        "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "ecmaVersion": 5,
+        "sourceType": "module"
+    },
+    "rules": {
+        "eqeqeq": ["error", "smart"],
+        "indent": [
+            "error",
+            4
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "never"
+        ],
+        "no-trailing-spaces": "error",
+        "valid-jsdoc": "error",
+        "no-console": "off"
+    },
+    "globals": {
+        "global": false,
+        "Class": false,
+        "module": false,
+        "console": false,
+        "browser": false,
+        "__dirname": false,
+        "process": false,
+        "setSpecProperty": false,
+        "$": false,
+        "$$": false
+    }
+}

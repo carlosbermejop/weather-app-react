@@ -1,12 +1,12 @@
-const Page = require("./Page");
+const Page = require("./Page")
 
 class MainPage extends Page {
-    
-    get textHelloWorldElement () { return $("#App") }
+
+    get btnQueryButton () { return $("#query-button") }
 
     open() {
-        super.open("weather-app-react/");
+        super.open("weather-app-react/")
     }
 }
 
-module.exports = new MainPage();
+module.exports = new MainPage()

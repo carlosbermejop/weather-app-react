@@ -37,7 +37,7 @@ const App = () => {
         <div>
             <GetWeatherButton queryData={queryData} />
             <br />
-            <p>{dataIsReceived ? `Lat: ${weatherData.lat}` : "Loading..."}</p>
+            <p>{dataIsReceived ? `Lat: ${weatherData.lat}` : ""}</p>
         </div>
     )
 }
